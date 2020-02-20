@@ -1,0 +1,165 @@
+﻿sugoroku by bert
+
+steps:
+1. figure out dice roll order
+2. following the order, roll the dice
+3. move forward based on the dice roll
+4. follow the instructions in the square the player lands on
+
+rules:
+1. everyone's piece starts in the starting square
+2. dice rolls will move your piece forward
+3. the games/challenges will only be activated through movement with dice rolls
+4. each square could be:
+   - empty
+   - game/challenge could have:
+     - own rules
+     - either reward/punishment
+	- rewards and punishment are:
+   	- pts for winner
+	- player movement forward or backwards by n squares
+(win conditions)
+6. game ends when someone reaches the last square
+7. person to reach the end receives 5pts
+8. player with highest points wins
+
+games
+
+I. spelling game (1 pt)
+1. 1 attempt to spell a word
+
+filibuster
+gerrymander
+hegemony
+quasar
+soliloquy
+ziggurat
+sanguine
+auspicious
+chicanery
+belie
+equinox
+incognito
+
+II. trivia games (1pt)
+1. What's the smallest prime number?
+2
+
+2. Who is the Greek god of dreams?
+Hypnos
+Morpheus -
+
+3. Who was the first man to step on the Moon?
+Neil Armstrong -
+Buzz Aldrin
+
+4. How many states are there in the USA?
+50 -
+40
+
+5. When did WWI start?
+1914 -
+1913
+
+6. Who lived at 221B, Baker Street, London?
+Sherlock Holmes -
+Winston Churchill
+
+7. What horoscope sign has a crab?
+cancer
+
+8. Who painted the Mona Lisa?
+Da Vinci -
+Michaelangelo
+
+9. Who painted the Sistine Chapel?
+Da Vinci
+Michaelangelo -
+
+10. When did the Second World War end?
+1944
+1945 -
+
+11. What is the largest ocean?
+Pacific
+
+12. Which planet is nearest to the sun?
+Mercury
+
+13. What type of elephant has got the biggest ears?
+Indian
+African -
+
+14. Who invented the electric light bulb?
+Thomas Edison -
+Nikola Tesla
+
+15. Which fruit floats because 25% of its volume is air?
+Guava
+Apple -
+
+17. What do the 7 dwarves do for a living?
+Miners -
+Lumberjacks
+
+18. Which fruit has more genes than humans?
+Potatoes
+Tomatoes - tomato contains 31,760 genes – that’s 7,000 more genes than a human being! 
+
+19. Which nail grows fastest?
+Index
+Middle -
+
+20. Which nail grows slowest?
+Pinky -
+Thumb
+
+
+Yes, I have Done that (1pt)
+1. randomly choose 2 questions
+2. if one question is answered yes, player wins
+
+questions:
+1. Have you been married?
+2. Are you single?
+3. Do you have children?
+4. Have you been in Europe?
+5 Have you been in Japan?
+6 Have you been in Cebu?
+7 Have you been in Africa?
+8 Have you been in USA?
+9 Have you been in Finland?
+10 Are you ranked Master or higher in Mobile Legends?
+11 Do you play Ragnarok Mobile?
+12 Have you watched Old Boy (2003)?
+13 Have you watched Captain Marvel (2019)?
+14 Have you eaten durian fruit?
+15 Do you have cat/s?
+16 Do you have dog/s?
+17 Does your given name starts with a "K"?
+18 Does your given name starts with an "R"?
+
+eat this food game (2pt)
+1. eat the food and move forward by n-squares
+2. lose and move backward by n-squares
+
+find the dice (1pt)
+
+stare battle (2pt)
+1. stare battle with someone (anyone) in the group (arms length distance)
+2. first to laugh or look away lose
+
+3. winner is decided within 15 seconds
+4. winner will move forward by 1, loser move backward by 1
+5. if no winner is decided, both move forward by 1
+
+jack-en-poy (2pt)
+1. paper-rock-scissors with someone (anyone) in the group
+2. race to 3
+3. winner will move forward by 1, loser move backward by 1
+4. if no winner is decided, both move forward by 1
+
+challenge accepted! (3pt)
+1. charge ka-me-ha-me-haaa!!! for 10 seconds
+2. say tongue-twister for 15 seconds
+3. 1 JoJo pose for 10 seconds
