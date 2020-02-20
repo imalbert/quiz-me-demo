@@ -32,4 +32,11 @@ export const spelling = [
 ]
 
 
-export const doneThat = []
+export const doneThat = [
+  'Are you married?',
+  'Are you single?',
+  'Do you have children?',
+  'Been in Europe?',
+  'Been in Japan?',
+  'Been in Cebu?',
+]

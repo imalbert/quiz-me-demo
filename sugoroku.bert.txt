@@ -98,19 +98,19 @@ Nikola Tesla
 Guava
 Apple -
 
-17. What do the 7 dwarves do for a living?
+16. What do the 7 dwarves do for a living?
 Miners -
 Lumberjacks
 
-18. Which fruit has more genes than humans?
+17. Which fruit has more genes than humans?
 Potatoes
 Tomatoes - tomato contains 31,760 genes – that’s 7,000 more genes than a human being! 
 
-19. Which nail grows fastest?
+18. Which nail grows fastest?
 Index
 Middle -
 
-20. Which nail grows slowest?
+19. Which nail grows slowest?
 Pinky -
 Thumb
 
@@ -120,7 +120,7 @@ Yes, I have Done that (1pt)
 2. if one question is answered yes, player wins
 
 questions:
-1. Have you been married?
+1. Are you married?
 2. Are you single?
 3. Do you have children?
 4. Have you been in Europe?
