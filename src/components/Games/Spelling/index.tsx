@@ -11,7 +11,6 @@ export const Spelling: React.FC<{ visible?: boolean }> = ({ visible }) => {
     action,
     NEXT,
   } = useGameController(spelling)
-  console.log(question)
 
   return (
     <div id="game__spelling" style={!visible ? { visibility: 'hidden', position: 'absolute' } : {}}>
@@ -28,7 +27,7 @@ export const Spelling: React.FC<{ visible?: boolean }> = ({ visible }) => {
           {action === NEXT ? question.word : null}
         </>
       )}
-      {QID < 0 && <h1>No trivia left!</h1>}
+      {QID < 0 && <h1>No words left!</h1>}
     </div>
   )
 }

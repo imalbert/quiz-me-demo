@@ -1,4 +1,3 @@
-// import * as React from 'react'
 interface Trivia {
   [key: string]: TriviaItem,
 }
