@@ -147,12 +147,20 @@ export const trivia: Trivia = {
   },
 }
 
-export const spelling = [
-  ['gerrymander', 'https://media.merriam-webster.com/soundc11/g/gerrym01.wav'],
-  ['filibuster', 'https://media.merriam-webster.com/soundc11/f/filibu01.wav'],
-  ['hegemony', 'https://media.merriam-webster.com/soundc11/h/hegemo01.wav'],
-]
-
+export const spelling = {
+  '1': {
+    word: 'gerrymander',
+    prs: 'https://media.merriam-webster.com/soundc11/g/gerrym01.wav',
+  },
+  '2': {
+    word: 'filibuster',
+    prs: 'https://media.merriam-webster.com/soundc11/f/filibu01.wav',
+  },
+  '3': {
+    word: 'hegemony',
+    prs: 'https://media.merriam-webster.com/soundc11/h/hegemo01.wav',
+  }
+}
 
 export const doneThat = [
   'Are you married?',

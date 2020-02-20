@@ -1,28 +1,21 @@
 import React, { useState } from 'react'
 
 import { trivia } from '../data'
+import { useGameController } from '../index'
 
-const NEXT = 'Next Trivia'
-const SHOW = 'Show Answer'
 export const TriviaGame: React.FC<{ visible?: boolean }> = ({ visible }) => {
-  const [QID, changeQID] = useState(Object.values(trivia).length)
-  const [question, changeQuestion] = useState()
-  const [action, changeAction] = useState(NEXT)
-
-  const onFetchQ = () => {
-    if (action === NEXT) {
-      changeQuestion(trivia[QID])
-      changeQID(QID - 1)
-      changeAction(SHOW)
-    } else {
-      changeAction(NEXT)
-    }
-  }
+  const {
+    question,
+    QID,
+    onFetchQuestion,
+    action,
+    NEXT,
+  } = useGameController(trivia)
 
   return (
     <div id="game__trivia" style={!visible ? { visibility: 'hidden', position: 'absolute' } : {}}>
       <h1>Trivia</h1>
-      <button onClick={onFetchQ}>
+      <button onClick={onFetchQuestion}>
         {action}
       </button>
       {question && (

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { trivia, spelling, doneThat, } from './trivia'
+import { trivia, doneThat, } from './trivia'
 import { TriviaGame } from '../Games/Trivia'
+import { Spelling } from '../Games/Spelling'
 
 interface Props {
 }
@@ -17,18 +18,6 @@ export const Quiz: React.FC<Props> = () => {
       <button onClick={() => changeGame(SPELLING)}>{SPELLING}</button>
       <TriviaGame visible={game === TRIVIA} />
       <Spelling visible={game === SPELLING} />
-    </div>
-  )
-}
-
-export const Spelling: React.FC<{ visible?: boolean }> = ({ visible }) => {
-  return (
-    <div id="game__spelling" style={!visible ? { visibility: 'hidden', position: 'absolute' } : {}}>
-      {spelling.map((word, idx) => (
-        <audio controls>
-          <source src={word[1]} type="audio/wav" />
-        </audio>
-      ))}
     </div>
   )
 }
