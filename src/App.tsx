@@ -1,37 +1,36 @@
 import React from "react";
 import { Provider, rootStore } from "./models/Root";
+import { Calendar } from './components/DatePicker/Calendar'
+import moment from 'moment'
 
-import GitHubButton from "react-github-btn";
+const numToDays = (): number[] => {
+  const dayCount = 42
+  let numberOfDays = moment().endOf('month').date()
+  let d = 1; let dArr = [];
+  // TODO: what day is day 1 of month? add a +offset
+  let endDayOfPreviousMonth = moment().subtract(1, 'month').endOf('month').date()
+  let firstWeekOffset = moment().startOf('month').weekday() - 1
 
-import Counter from "./components/Counter";
-import Cart from "./components/Cart";
+  for(let i = endDayOfPreviousMonth - firstWeekOffset; i <= endDayOfPreviousMonth; i++) {
+    dArr.push(i)
+  }
 
-import logo from "./assets/mstlogo.png";
+  while (d <= numberOfDays) {
+    dArr.push(d); d++
+  }
+
+  const daysLeft = dayCount - dArr.length
+  for(let i = 1; i <= daysLeft ; i++) {
+    dArr.push(i)
+  }
+
+  return dArr
+}
 
 const App: React.FC = () => {
   return (
     <Provider value={rootStore}>
-      <div className="container mx-auto">
-        <img src={logo} alt="mst logo" className="block mx-auto w-64 h-auto" />
-        <div className="relative">
-          <h1 className="font-bold text-3xl text-center">
-            react-hooks-mobx-state-tree
-          </h1>
-          <div className="mt-3 absolute w-full flex justify-center">
-            <GitHubButton
-              href="https://github.com/impulse/react-hooks-mobx-state-tree"
-              data-icon="octicon-star"
-              data-size="large"
-              data-show-count={true}
-              aria-label="Star impulse/react-hooks-mobx-state-tree on GitHub"
-            >
-              Star
-            </GitHubButton>
-          </div>
-        </div>
-        <Counter />
-        <Cart />
-      </div>
+      <Calendar daysArray={numToDays()} />
     </Provider>
   );
 };
